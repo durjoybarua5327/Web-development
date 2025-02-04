@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Ajax Basics</title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous"/>
+    </head>
+
+    <body>
+        <button onclick="FetchData()">Fetch Get Data</button>
+        <script>
+            function FetchData(){
+                var url= "https://crud.teamrabbil.com/api/vi/ReadProduct"
+                var Configuration={method:'Get'};
+                fetch(url,Configuration)
+                .then(Response=>Response.json)
+                .then(result=>console.log(result))
+                .catch(err=>console.log(err));
+            }
+
+        </script>
+
+    </body>
+</html>

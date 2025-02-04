@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card design</title>
+    <style>
+        body {
+            background-color: rgb(203, 206, 209);
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            width: 50vw;
+            margin: 0 auto;
+
+        }
+        .first {
+            background-color: white;
+            width: 90%;
+            max-width: 400px;
+            margin: 0;
+            border-radius: 20px;
+            padding: 2vh;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+            height: auto;
+        }
+
+        .button_container {
+            display: flex;
+            gap: 2vh;
+            margin-top: 2vh;
+            margin-left: 2vh;
+        }
+
+        .nav1,.nav2 {
+            background-color: white;
+            border: 1px solid rgb(165, 177, 184);
+            border-radius: 2vh;
+            padding: 0.3em 1em;
+            cursor: pointer;
+        }
+
+        h3 {
+            margin: 2vh;
+        }
+
+        p {
+            font-size: 1rem;
+            padding: 0 1em;
+        }
+        .nav3 {
+            display: block; 
+            width: auto;
+            border-radius: 5vw;
+            position: relative;
+            border-radius: 5vw;
+            border: 1px;
+            background-color: rgb(178, 202, 240);
+            color: blue;
+            padding: 0.3rem 1rem;
+            font-size: 1rem;
+            margin: 2vh auto;
+            font-weight: bold;
+        }
+        .nav3:hover {
+            background-color: rgb(67, 123, 208); 
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <img src="image1.jpeg" />
+        <div class="button_container">
+            <button class="nav1">Nature</button>
+            <button class="nav2">Lake</button>
+        </div>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod
+            perspiciatis eveniet asperiores ullam officia voluptas praesentium
+            culpa exercitationem et!
+        </p>
+        <button class="nav3"> Read More</button>
+    </div>
+</body>
+
+</html>
