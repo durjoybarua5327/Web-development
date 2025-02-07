@@ -1,73 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple websites navigation</title>
-</head>
-<style>
+    <link rel="stylesheet" href="css.css" />
+  </head>
 
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .image img {
-        width: 160px;
-        height: auto;
-    }
-
-    .right ul {
-        display: flex;
-        gap: 35px;
-    }
-
-    .right ul li {
-        list-style: none;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        cursor: pointer;
-    }
-    .right ul li span{
-        padding: 8px;
-    }
-</style>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="image">
-                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" width="259" height="83"
-                    alt="UltraEdit" id="logo" data-height-percentage="58" data-actual-width="259"
-                    data-actual-height="83">
-            </div>
-            <div class="right">
-                <ul>
-                    <li><span>Products</span> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"viewBox="0 0 20 17">
-                            <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z" />
-                        </svg>
-                    </li>
-                    <li><span>For business</span> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"viewBox="0 0 20 17">
-                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z" />
-                    </svg> </li>
-                    <li><span>Resouces</span> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"viewBox="0 0 20 17">
-                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z" />
-                    </svg></li>
-                    <li><span>Support</span> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"viewBox="0 0 20 17">
-                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z" />
-                    </svg></li>
-                    <li><span>Our company</span> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"viewBox="0 0 20 17">
-                        <path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z" />
-                    </svg></li>
-                    <li><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="image">
+          <img
+            src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp"
+            width="259"
+            height="83"
+            alt="UltraEdit"
+            id="logo"
+            data-height-percentage="58"
+            data-actual-width="259"
+            data-actual-height="83"
+          />
+        </div>
+        <div class="right">
+          <ul>
+            <li>
+              <span>Products</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>For business</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>Resouces</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>Support</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>Our company</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 20 17"
+              >
+                <path
+                  d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+                />
+              </svg>
+            </li>
+            <li>
+              <img
+                src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <span><img src="icons8-search.svg" alt="" /></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-</body>
+    <main>
+      <div class="p1">
+        <p>Download <b> UltraEdit</b> for Windows</p>
+        <img
+          decoding="async"
+          src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png"
+          width="112"
+          height="32"
+          alt="Reviews"
+          class="wp-image-1613 alignnone size-full"
+        />
+      </div>
+      <div class="p2">
+        <p>
+          Download and try UltraEdit before you buy it! This download includes
+          the full Windows version of the text editor.
+        </p>
+      </div>
+      <div class="download-mac-linux">
+        <button>Download Mac or Linux version</button>
+      </div>
+      <div class="p3">
+        <div class="img">
+          <img
+            src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png"
+            width="60"
+            height="60"
+            alt="UltraEdit Logo"
+          />
+        </div>
+        <p>Download UltraEdit</p>
+        <p>v2024.2 (released 2025-01-15) | Hotfix information</p>
+      </div>
+      <div class="boxes">
+        <div class="card">
+          <strong style="font-size: 20px">English</strong>
+          <p style="font-size: 12px">English</p>
+          <a href="ue_english_64.exe" class="download-btn">Download 64-bit</a>
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            B06BC2BB50623A7B1A1C0C2D1C7A6BB5346515A9F5FF2CDE19A60
+          </p>
+          <p style="font-size: 8px">EEE36DC702E</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">Deutsch</strong>
+          <p style="font-size: 12px">German</p>
+          <a href="ue_german_64.exe" class="download-btn">Download 64-bit</a>
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7
+          </p>
+          <p style="font-size: 8px">BD1799F54A5</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">Italiano</strong>
+          <p style="font-size: 12px">Italian</p>
+          <a href="https://example.com/italian-download" class="download-btn"
+            >Download 64-bit</a
+          >
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            F6AE0F552982CF949261AB86FFEBD4F44CBC467F8F0692E7B360CC
+          </p>
+          <p style="font-size: 8px">D78392C04A</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">Español</strong>
+          <p style="font-size: 12px">Spanish</p>
+          <a href="ue_italian_64.exe" class="download-btn">Download 64-bit</a>
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            0B59B29571D36A107A4A13CD52C046D9D66C1328C367EDFC5506
+          </p>
+          <p style="font-size: 8px">D914A173C2D4</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">français</strong>
+          <p style="font-size: 12px">French</p>
+          <a href="ue_french_64.exe" class="download-btn">Download 64-bit</a>
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            4DDF3FE5C0F07709B39AC78D5A2E12851F4B01A8BE271359964D4
+          </p>
+          <p style="font-size: 8px">197E8586662</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">Português brasileiro</strong>
+          <p style="font-size: 12px">Brazilian Portuguese</p>
+          <a href="ue_portuguese_64.exe" class="download-btn"
+            >Download 64-bit</a
+          >
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            BA78B33518547FA143AEC9B552861BC50B8776C2FCEE0F4CDDD8C
+          </p>
+          <p style="font-size: 8px">CD57C1221B1</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">日本</strong>
+          <p style="font-size: 12px">Japanese</p>
+          <a href="ue_japanese_64.exe" class="download-btn">Download 64-bit</a>
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            27D827353C2FB5B7157D209A79DC0B8D9C0367B2200859CB8C75
+          </p>
+          <p style="font-size: 8px">DCA39F606C3B</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">한국어</strong>
+          <p style="font-size: 12px">Korean</p>
+          <a href="https://example.com/italian-download" class="download-btn"
+            >Download 64-bit</a
+          >
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            959F1821E36F83A0F3BBC2C474DC5097277DD97FB145E636DC801
+          </p>
+          <p style="font-size: 8px">8C8BDDCD6AA</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">华语</strong>
+          <p style="font-size: 12px">Chinese</p>
+          <a href="ue_italian_64.exe" class="download-btn">Download 64-bit</a>
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            1E9C3C10FCE6B91FC27E35F1F989B611F619815C51EAF59D4D9F58
+          </p>
+          <p style="font-size: 8px">4C04E8B87C</p>
+        </div>
+        <div class="card">
+          <strong style="font-size: 20px">華語</strong>
+          <p style="font-size: 12px">Traditional Chinese</p>
+          <a href="ue_chinese_traditional_64.exe" class="download-btn"
+            >Download 64-bit</a
+          >
+          <p style="font-size: 10px">SHA256</p>
+          <p style="font-size: 8px">
+            6ABF82400B210F1ED7E10EAB28A2BADD682BC7A4F6D0140CE4B00
+          </p>
+          <p style="font-size: 8px">EEE36DC702E</p>
+        </div>
+      </div>
 
+      <div class="black-box">
+        <section class="first-container">
+          <div>
+            <h1>Join the UltraEdit newsletter</h1>
+            <p>
+              Sign up for our newsletter and receive emails for the latest news,
+              blogs, and special deals on UltraEdit.
+            </p>
+          </div>
+          <div>
+            
+            <h2>Subscribe to our emails</h2>
+            <form class="mail-box">
+              <p style="color: black">Enter email address</p>
+              <input type="email" class="email-input" />
+            </form>
+            <button type="submit" class="signup-btn">SIGN UP</button>
+          </div>
+        </section>
+      </div>
+      <div>
+        <div></div>
+      </div>
+    </main>
+  </body>
 </html>

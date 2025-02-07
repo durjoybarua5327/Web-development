@@ -1,0 +1,178 @@
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image img {
+        width: 160px;
+        height: auto;
+    }
+
+    .right ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    .right ul li {
+        list-style: none;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+    }
+
+    .right ul li span {
+        padding: 8px;
+    }
+
+    .p1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .p1 p {
+        font-size: 48px;
+        margin-right: 30px;
+
+    }
+
+    .p2 {
+        padding-left: 280px;
+        padding-right: 280px;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .p2 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+
+    .download-mac-linux {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .download-mac-linux button {
+        padding: 15px 20px;
+        border: 1px solid #00b6d1;
+        background-color: #00b6d1;
+        border-radius: 7px;
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+
+
+    .p3 {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        white-space: nowrap;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 75%;
+        margin-top: 70px;
+    }
+
+    .p3>p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .p3>p:nth-child(3) {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 0px 250px;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        background: #f9f9f9;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .download-btn {
+        text-decoration: none;
+        background-color: #5abc5d;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+
+    }
+   body{
+    margin: 0;
+        padding: 0; 
+   }
+    .black-box{
+        background-color: #222;
+        color: white;
+        padding: 50px 100px;
+    }
+    .first-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .first-container div:first-child{
+        padding-top: 100px;
+        width: 400px;
+        text-align: center;
+    }
+    .first-container h2{
+         color: #00b6d1;
+    }
+    .first-container div:nth-child(2){
+        display:block;
+        background-color: white;
+        border-radius: 5px;
+        min-width: 300px;
+        height: 220px;
+        padding: 20px 20px ;
+        text-align: center;
+        justify-content: center;
+        
+    }
+.email-input{
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.first-container .signup-btn{
+    background-color: #00b6d1;
+    width: 90%;
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 700;
+   
+}
+
+  
